@@ -15,3 +15,5 @@ require (
 	google.golang.org/protobuf v1.26.0
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
+
+replace github.com/hibiken/asynq v0.24.1 => github.com/kevinmiao/asynq v0.0.0-20230726031927-dc1a8155de02
